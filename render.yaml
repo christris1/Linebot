@@ -2,7 +2,7 @@ services:
 - type: web
   name: CCSUE
   env: python
-  repo: https://github.com/gwhsu/Linebot.git
+  repo: https://github.com/christris1/Linebot
   buildCommand: cd examples/flask-echo;pip install gunicorn -r requirements.txt
   startCommand: cd examples/flask-echo;gunicorn app:app
   plan: free
